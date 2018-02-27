@@ -130,8 +130,8 @@ metadata {
             tileAttribute ("device.level", key: "SLIDER_CONTROL") {
                 attributeState "level", action:"setLevel"
             }
-            tileAttribute ("device.color", key: "COLOR_CONTROL") {
-                attributeState "color", action:"setColor"
+            tileAttribute ("device.colorTemperature", key: "COLOR_CONTROL") {
+                attributeState "colorTemperature", action:"color temperature.setColorTemperature"
             }
         }
                        
